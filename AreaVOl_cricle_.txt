@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class AreaVol
+{
+    public static void main(String[] args) 
+    {
+        Cricle classA = new Cricle();
+        classA.print();
+
+        Cylinder classB = new Cylinder();
+        classB.print();
+    }
+}
+ class Cricle 
+{
+    public Cricle() {}
+
+    public void print() 
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        float r,area;
+        
+        System.out.print("Enter the radius:");
+        r=sc.nextFloat();
+        
+        area=(3.14f * (r*r));
+        
+        System.out.println("the area of circle is :"+area);
+    }
+}
+
+class Cylinder 
+{
+    public Cylinder() {}
+
+   public void print() 
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        float r,h,vol;
+        
+        System.out.print("Enter the radius:");
+        r=sc.nextFloat();
+        System.out.print("Enter the height:");
+        h=sc.nextFloat();
+        
+        vol=(3.14f * (r*r)*h);
+        
+        System.out.println("the volume of circle is :"+vol);
+    }
+}
