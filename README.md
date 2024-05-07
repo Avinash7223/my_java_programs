@@ -1,3 +1,7 @@
+# Java Coding Practice Repository
+
+This repository is dedicated to storing all the Java code I've written to practice and improve my Java programming skills. It contains exercises and projects completed during my time in college as well as during my free time. From simple programs to more complex applications, this collection covers a wide range of Java coding exercises aimed at enhancing my proficiency in the language. It serves as a testament to my dedication to mastering Java and my ongoing journey of continuous learning and improvement in the language.
+
 # Configuring a Repl
 
 Every new repl comes with a `.replit` and a `replit.nix` file that let you configure your repl to do just about anything in any language!
